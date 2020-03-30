@@ -2,9 +2,19 @@ a {
   color: #000c18;
 }
 
+
+/* ========================================================= */
 .topText {
 	background-color: #000c18;
 }
+
+@media (max-width: 550px) {
+	.topText {
+		display: none !important;
+	}
+}
+/* ========================================================= */
+
 
 .btn {
 	background-color: #000c18;
@@ -12,7 +22,6 @@ a {
 }
 
 textarea {
-	padding: 15px;
 	resize: none;
 }
 
@@ -20,6 +29,16 @@ textarea:focus {
 	outline: none;
 }
 
+@media (max-width: 767px) {
+	textarea {
+		max-width: 80% !important;
+		margin: 0 auto 20px auto;
+	}
+}
+
+
+
+/* ======================================================= */
 ul.topnav-links {
   margin-left: auto;
 }
@@ -32,7 +51,6 @@ nav.topnav {
 @media (max-width: 767px) {
 	.nav-item {
 		margin: 0 !important;
-		/* border-bottom: 1px solid white; */
 		text-align: center;
 	}
 
@@ -40,3 +58,21 @@ nav.topnav {
 		padding: 10px !important;
 	}
 }
+/* ======================================================== */
+
+
+/* ======================================================== */
+@media (max-width: 767px) {
+	button {
+		width: fit-content !important;
+	}
+
+	.boxes-and-buttons > div:nth-child(1) {
+		padding: 0 20px !important;
+	}
+
+	input[type=file] {
+		margin: -25px 0 20px !important;
+	}
+}
+/* ============================================================= */

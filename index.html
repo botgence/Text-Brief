@@ -23,7 +23,7 @@
 
 			<!-- Toggler/collapsibe Button -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-				<i class="fa fa-bars text-light fa-1x"></i>
+				<i class="fa fa-bars fa-1x"></i>
 			</button>
 
 			<!-- Links -->
@@ -47,21 +47,18 @@
 		<!-- .................... The navbar stops here -->
 		</nav>
 
-		<section class="text-center py-5">
-			<div class="buttons">
-				<input type="file">
-				<button class="btn mr-5">Summarize</button>
-				<button class="btn mr-5">Copy</button>
-				<button class="btn">Download</button>
+		<section class="boxes-and-buttons py-5 container mt-3">
+			<div class="row justify-content-between mb-5">
+				<input class="col-md-3 p-0" type="file">
+				<button class="col-md-2 btn">Summarize</button>
+				<button class="col-md-2 btn">Copy</button>
+				<button class="col-md-2 btn">Download</button>
+				</div>
 			</div>
-			<div class="boxes mt-5">
-				<textarea placeholder="Type your text here or use the 'choose file' button above and then click summarize." cols="40" rows="13"></textarea>
-				<textarea class="ml-5" placeholder="Your Summary..." cols="40" rows="13"></textarea>
+			<div class="row justify-content-between textarea-container">
+				<textarea class="col-md-5" placeholder="Type your text here or use the 'choose file' button above and then click summarize." cols="40" rows="13"></textarea>
+				<textarea class="col-md-5" placeholder="Your Summary..." cols="40" rows="13"></textarea>
 			</div>
-		</section>
-
-		<section id="about">
-
 		</section>
 
 
