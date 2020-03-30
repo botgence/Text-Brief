@@ -3,7 +3,7 @@ a {
 }
 
 
-/* ========================================================= */
+/* The text before the navigation bar was styled here ========================================================= */
 .topText {
 	background-color: #000c18;
 }
@@ -21,6 +21,10 @@ a {
 	color: white;
 }
 
+
+
+
+/*  Those boxes you in the homepage were styled here ============================================================= */
 textarea {
 	resize: none;
 }
@@ -35,10 +39,11 @@ textarea:focus {
 		margin: 0 auto 20px auto;
 	}
 }
+/* =============================================================== */
 
 
 
-/* ======================================================= */
+/* Every styling about the navbar was done here ======================================================= */
 ul.topnav-links {
   margin-left: auto;
 }
@@ -61,6 +66,7 @@ nav.topnav {
 /* ======================================================== */
 
 
+
 /* ======================================================== */
 @media (max-width: 767px) {
 	button {
@@ -76,3 +82,20 @@ nav.topnav {
 	}
 }
 /* ============================================================= */
+
+
+
+/* The about section was styled here ============================================================= */
+section#about {
+	background: linear-gradient(rgba(2, 7, 26, 0.9), rgba(6, 15, 46, 0.9)), url("../images/bg.png");
+	background-size: cover;
+	margin: 50px 0;
+	padding: 100px 250px;
+}
+
+@media (max-width: 991px) {
+	section#about {
+		padding: 50px 20px !important;
+	}
+}
+/* ============================================================== */
