@@ -89,7 +89,7 @@ nav.topnav {
 section#about {
 	background: linear-gradient(rgba(2, 7, 26, 0.9), rgba(6, 15, 46, 0.9)), url("../images/bg.png");
 	background-size: cover;
-	margin: 50px 0;
+	margin: 50px 0 0;
 	padding: 100px 250px;
 }
 
@@ -99,3 +99,42 @@ section#about {
 	}
 }
 /* ============================================================== */
+
+
+section#services {
+	background-color: rgb(245, 238, 238);
+}
+
+
+.fa-users, .fa-eye, .fa-pencil, .fa-book, .fa-tag {
+	border-radius: 30px;
+	background-color: rgb(160, 46, 46);
+	padding: 15px;
+	height: fit-content;
+}
+
+.first-carousel {
+	background: linear-gradient(rgba(6, 6, 7, 0.5), rgba(6, 6, 7, 0.5)), url("../images/student.png");
+}
+
+.second-carousel {
+	background: linear-gradient(rgba(6, 6, 7, 0.5), rgba(6, 6, 7, 0.5)), url("../images/reading.jpeg");
+}
+
+.third-carousel {
+	background: linear-gradient(rgba(6, 6, 7, 0.5), rgba(6, 6, 7, 0.5)), url("../images/writing.jpg");
+}
+
+.fourth-carousel {
+	background: linear-gradient(rgba(6, 6, 7, 0.5), rgba(6, 6, 7, 0.5)), url("../images/publisher.png");
+}
+
+.fifth-carousel {
+	background: linear-gradient(rgba(6, 6, 7, 0.5), rgba(6, 6, 7, 0.5)), url("../images/writing.png");
+}
+
+.carousel-item {
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
